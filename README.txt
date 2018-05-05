@@ -1,4 +1,14 @@
-This file was LAST UPDATED: May 04 2018 - 08:04 PM - PST
+This file was LAST UPDATED: May 04 2018 - 08:11 PM - PST
+
+!HOW TO DOWNLOAD FILES! ################################################################################################################
+
+If you're interested in downloading any files in this repository but don't know how to, here are some instructions to do so:
+1) Go to file that you wish to download
+2) Find and click "Raw". It should be next to the buttons "Blame" and "History".
+3) You'll be sent to another page and that's fine. Right-click on any part of the page and click "Save as..."
+
+Note that some file extension types are not supported (like .ino), so you may have to end up copy-pasting the file, but you can do that 
+as well.
 
 delaystuff/ folder info: ###############################################################################################################
 
