@@ -1,6 +1,6 @@
-This file was LAST UPDATED: May 04 2018 - 07:55 PM - PST
+This file was LAST UPDATED: May 04 2018 - 08:04 PM - PST
 
-delaystuff/ folder info:
+delaystuff/ folder info: ###############################################################################################################
 
 This is the folder that contains the files from our testing of the arduino code's delay lines. We believe that in the RisingData.ino 
 file, at lines 87 and 89, 
@@ -40,4 +40,10 @@ ranges from, you need to multiply it, at least in our specific payload, by the f
 universal, so it may be best if you try running some trials to see if you can get a proportional scaling constant for your time 
 measurements, like we include in folders run1/ and run2/.
 
+rocketstuff/ folder info: ##############################################################################################################
 
+e20wmotorcurve_CONTROL.jpg is a picture of company-provided information of the motor we used for our rocket. 
+
+We highlight specifically the graph of the motor's thrust force vs. time to compare with our file e20wmotorcomparison.svg. Our rocket 
+data, including the adjustments made to our time scale using k = 2.5, horrifically models the thrust-time curve very closely in both 
+magnitude and time scale. This allows us to comfortably stick with our k-value adjustment for our calculations.
