@@ -1,9 +1,9 @@
-LAST UPDATED: May 04 2018 - 07:19 PM - PST
+This file was LAST UPDATED: May 04 2018 - 07:55 PM - PST
 
-delaystuff/
+delaystuff/ folder info:
 
-This is the folder that contains the files from our testing of the arduino code's delay lines. We believe that in the RisingData.ino file,
-at lines 87 and 89, 
+This is the folder that contains the files from our testing of the arduino code's delay lines. We believe that in the RisingData.ino 
+file, at lines 87 and 89, 
 
   digitalWrite(LedPin, HIGH);
   delay(50);
@@ -26,5 +26,18 @@ or
   digitalWrite(LedPin, LOW);
   delay(100);
   
-and we still obtain the same length of time of data-write-timestep, which we'll call dt. The folder called run1/ is our first trial where
-we tested the data collection lasting 60s and folder run2/ is a trial for 120s. 
+and we still obtain the same length of time of data-write-timestep, which we'll call dt. The folder called run1/ is our first trial 
+where we tested the data collection lasting 60s and folder run2/ is a trial for 120s. 
+
+In the file handcalculations.jpg, we define a scaling factor k and we get the same value of 2.5 for k for both trials. We may test 
+longer trials like a 30min trial (we won't, but it's still something to think about) to see if k = 2.5 still holds for longer periods of 
+time. 
+
+What this k-value tells us, is that using dt from the Arduino code isn't enough. For our payload case, if you only use dt = 100ms (the 
+default), then you will see that the total time interval of your data collection is only 40% of what you expect it to be, based off our 
+k-value from our two trials. This is very important because this means that whatever total time interval you think your data collection 
+ranges from, you need to multiply it, at least in our specific payload, by the factor of k = 2.5. Note that this k-value may not be 
+universal, so it may be best if you try running some trials to see if you can get a proportional scaling constant for your time 
+measurements, like we include in folders run1/ and run2/.
+
+
