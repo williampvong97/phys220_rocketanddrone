@@ -1,0 +1,75 @@
+# NEW NOTES: (week 13)
+
+rocket component: will
+
+       - bedtime
+
+
+# -----------------------------------------------------------------------------
+
+drone component: whipples
+
+      - present the acceleration magnitude data. explain what the numbers mean, their components, magnitude, and sign
+
+      - what is the coordinate basis of the drone? that is, how is it oriented? (our up/down, what variable is it for the drone? what about our left/right? when you say "our", what are you taking the direction with respect to? (hint: video))
+
+      - use the recorded video, from beto's phone, as a reference in the presentation. compare with our acceleration data, both component-wise and magnitude-wise
+
+      - what application problems can you solve, using this understanding of the acceleration sensor? what possible challenges do you propose that you can try to solve using this sensor?
+
+      - what challenges did you come across building the drone? (will can help with this, ask him, or our associates quang and vu. some problems include: center of mass, soldering/connectivity issues, controller-linking and calibration)
+
+      - for future builds and flights, what improvements do you propose? why do you propose them? (accuracy, precision, applicability in real-life problems)
+
+
+# -----------------------------------------------------------------------------
+
+technology component (electric motor): beto
+
+	   - what is an electric motor?
+	   - where did we use it for this class?
+	   - what do the arrows represent on the motor?
+	   - how fast can it spin?
+	   - How does this motor work?
+	   
+	   - why do we use this type of motor instead of other motors for this particular drone-model that we built?
+	   - what is the history behind this electric motor?
+	   - why is this an important piece of the drone?
+	   - what sort of other devices use this motor, and why? why is this technology so popular with many devices?
+
+# -----------------------------------------------------------------------------
+
+
+# these notes below here are the previous notes that I typed in class, it pretty much says the same stuff, but broader; i'm just including this so you guys have access to it as well, just in case
+
+# OLD NOTES: (week 12)
+
+
+
+
+
+# 3 components: rocket, drone, technology (electric motor, of the drone)
+
+# - beto: electric motor, will: drone, whipples: rocket
+
+# data(for all 3 comps):
+	 why it looks the way it does, interpret the numbers
+
+# rocket component:
+       how to build it, science behind the rocket, challenges behind building rocket,
+
+# discuss:
+	what can we do with the equipment, how we can model the data that it receives considering idealized situations with perfect data, answer 'what question can i answer?')
+
+	ie: why use the magnetic, temperature, etc sensors? what can we use these for? (applications)
+
+# terminology:
+  engineering: using a science question to optimize a human-related task
+  scientific question: to answer 'why does x phenomenon occur?, we obtain data from engineering concepts
+
+
+# additional info:
+  audience: dean, mr. vaca, possibly more
+  presentation day: may 18th
+	     take the presentation seriously, 
+	     dress businesss casual
